@@ -4,3 +4,7 @@ class Quote {
   String source = '';
   String parentFolderID = '';
 }
+Map<String, String> loadQuote(String fID){
+  Map<String, String> data = {};
+  return data;
+}

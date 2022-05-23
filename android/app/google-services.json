@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "62616774239",
+    "project_id": "quotealineapp-9ac36",
+    "storage_bucket": "quotealineapp-9ac36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62616774239:android:d779ba8a06e472b7935dea",
+        "android_client_info": {
+          "package_name": "com.example.quotaline_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62616774239-na87nb76ll21djc0apca5d24cdnbdace.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV48j8J5LfoEJaKOEMIdckuQgyPP9u7Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62616774239-na87nb76ll21djc0apca5d24cdnbdace.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
