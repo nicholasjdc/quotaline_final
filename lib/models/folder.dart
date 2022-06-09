@@ -20,7 +20,13 @@ class Folder {
     }
     return folderNames;
   }
+//Folders selection won't work -- maybe do a partial folder, so one does not have to recursively call the function?
 
+Folder.fromMap(Map<String, dynamic> folderMap)
+  : id = folderMap['id'],
+    folderName = folderMap['folderName'],
+    quotes = folderMap['quotes'],
+    folders = folderMap['folders'];
 Folder.fromDocumentSnapshot(DocumentSnapshot<Map<String, dynamic>> doc)
       : id = doc.id,
        folderName = doc.data()!["folderName"],

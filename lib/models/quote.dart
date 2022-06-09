@@ -20,6 +20,11 @@ class Quote {
       'poster': poster   
     };
   }
+Quote.fromMap(Map<String, dynamic> quoteMap)
+  : id = quoteMap['id'],
+    source = quoteMap['source'],
+    content = quoteMap['content'],
+    poster = quoteMap['poster'];
 
 Quote.fromDocumentSnapshot(DocumentSnapshot<Map<String, dynamic>> doc)
       : id = doc.id,
