@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
   //using this function you can use the credentials of the user
   void getCurrentUser() async {
     try {
-      final user = await _auth.currentUser;
+      final user =  _auth.currentUser;
       if (user != null) {
         loggedinUser = user;
       }
